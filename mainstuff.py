@@ -7,5 +7,5 @@ class Person:
         print ("Inside `__getitem__` method!")
         return getattr(self,key)
 
-p = Person("Daniel",31)
+p = Person("Daniel",30)
 print (p["age"])
